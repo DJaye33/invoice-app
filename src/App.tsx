@@ -1,10 +1,10 @@
-import { AppContainer } from "./Components";
+import { AppContainer, AppBar } from "./Components";
 
 function App() {
   return (
     <>
       <AppContainer>
-        <h1>Hello World!</h1>
+        <AppBar />
       </AppContainer>
     </>
   );

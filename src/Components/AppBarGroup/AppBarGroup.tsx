@@ -1,3 +1,5 @@
+import avatar from "../../assets/image-avatar.jpg";
+
 const AppBarGroup = () => {
   return (
     <div className="flex justify-between items-center min-h-[72px] w-[125px] md:w-[144px] lg:flex-col lg:h-36 lg:w-full">
@@ -15,9 +17,9 @@ const AppBarGroup = () => {
       </svg>
       <div className="w-[1px] min-h-[inherit] bg-gray-700 lg:min-h-[1px] lg:min-w-[inherit] lg:w-full"></div>
       <img
-        className="inline-block h-8 w-8 rounded-full"
-        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-        alt=""
+        className="inline-block h-8 w-8 rounded-full lg:h-10 lg:w-10"
+        src={avatar}
+        alt="avatar of man with red hoodie"
       />
     </div>
   );

@@ -1,4 +1,4 @@
-import { AppContainer, AppBar } from "./Components";
+import { AppContainer, AppBar, AppMain } from "./Components";
 import { Home } from "./Components/pages";
 
 function App() {
@@ -6,7 +6,9 @@ function App() {
     <>
       <AppContainer>
         <AppBar />
-        <Home />
+        <AppMain>
+          <Home />
+        </AppMain>
       </AppContainer>
     </>
   );

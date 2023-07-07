@@ -3,7 +3,7 @@ type AppContainer = {
 };
 
 const AppContainer = ({ children }: AppContainer) => {
-  return <div className="lg:flex">{children}</div>;
+  return <div className="min-h-screen bg-violet-50 lg:flex">{children}</div>;
 };
 
 export default AppContainer;

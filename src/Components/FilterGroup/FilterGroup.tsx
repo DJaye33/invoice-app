@@ -17,7 +17,7 @@ const FilterGroup = () => {
                     aria-describedby="comments-description"
                     name="comments"
                     type="checkbox"
-                    className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                    className="h-4 w-4 rounded border-gray-300 text-violet-600 focus:ring-violet-600"
                   />
                 </div>
                 <div className="ml-3 text-sm leading-6">
@@ -26,11 +26,7 @@ const FilterGroup = () => {
                     className="font-medium text-gray-900"
                   >
                     New comments
-                  </label>{" "}
-                  <span id="comments-description" className="text-gray-500">
-                    <span className="sr-only">New comments </span>so you always
-                    know what's happening.
-                  </span>
+                  </label>
                 </div>
               </div>
               <div className="relative flex items-start">
@@ -40,7 +36,7 @@ const FilterGroup = () => {
                     aria-describedby="candidates-description"
                     name="candidates"
                     type="checkbox"
-                    className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                    className="h-4 w-4 rounded border-gray-300 text-violet-600 focus:ring-violet-600"
                   />
                 </div>
                 <div className="ml-3 text-sm leading-6">
@@ -49,11 +45,7 @@ const FilterGroup = () => {
                     className="font-medium text-gray-900"
                   >
                     New candidates
-                  </label>{" "}
-                  <span id="candidates-description" className="text-gray-500">
-                    <span className="sr-only">New candidates </span>who apply
-                    for any open postings.
-                  </span>
+                  </label>
                 </div>
               </div>
               <div className="relative flex items-start">
@@ -63,17 +55,13 @@ const FilterGroup = () => {
                     aria-describedby="offers-description"
                     name="offers"
                     type="checkbox"
-                    className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                    className="h-4 w-4 rounded border-gray-300 text-violet-600 focus:ring-violet-600"
                   />
                 </div>
                 <div className="ml-3 text-sm leading-6">
                   <label htmlFor="offers" className="font-medium text-gray-900">
                     Offers
-                  </label>{" "}
-                  <span id="offers-description" className="text-gray-500">
-                    <span className="sr-only">Offers </span>when they are
-                    accepted or rejected by candidates.
-                  </span>
+                  </label>
                 </div>
               </div>
             </div>
